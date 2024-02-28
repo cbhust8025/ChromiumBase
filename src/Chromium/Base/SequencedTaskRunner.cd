@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="base::SequencedTaskRunner">
+    <Position X="6" Y="9.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAgAAAAAAAgAAAAEAAAAAQAAQAAAAAAAAAAA=</HashCode>
+      <FileName>sequenced_task_runner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::TaskRunner">
+    <Position X="9.5" Y="5.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAAAABAAAAAAAAAAAIAgAAEBAAAAAACAAAAA=</HashCode>
+      <FileName>task_runner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::RefCountedThreadSafe&lt;T, Traits&gt;">
+    <Position X="5.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAIAAJAAAEQAAABBAAAAA=</HashCode>
+      <FileName>memory\ref_counted.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::SingleThreadTaskRunner">
+    <Position X="9.5" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>single_thread_task_runner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::DeferredSequencedTaskRunner">
+    <Position X="2.25" Y="13" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="base::DeferredSequencedTaskRunner::DeferredTask" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>deferred_sequenced_task_runner.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAKAAAEAAAgCAAAQAAAAAAAQEAAAARAAAoAA=</HashCode>
+      <FileName>deferred_sequenced_task_runner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::subtle::RefCountedThreadSafeBase">
+    <Position X="1" Y="5.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAzABgAAAAAAAAAAACABoAAEAAAABBAAAAg=</HashCode>
+      <FileName>memory\ref_counted.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::internal::PooledParallelTaskRunner">
+    <Position X="12.5" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBgAAAAAAAAgAAAAAAAAAAAAgEAEECAAAAAAIAA=</HashCode>
+      <FileName>task\thread_pool\pooled_parallel_task_runner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::internal::PooledSequencedTaskRunner">
+    <Position X="5.75" Y="15.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAgAAAAAAAQAAgAAAAAAACAAAAAEASAAAAAAAAA=</HashCode>
+      <FileName>task\thread_pool\pooled_sequenced_task_runner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::UpdateableSequencedTaskRunner">
+    <Position X="5.75" Y="13" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAEAAAAAAAAIEAAAAAAAAAAA=</HashCode>
+      <FileName>updateable_sequenced_task_runner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

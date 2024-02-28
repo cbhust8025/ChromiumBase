@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)..\bin\BinFinal\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)\obj\BinFinal\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\include;$(Qt_INCLUDEPATH_)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)..\Bin\BinFinal\$(ProjectName).exe</OutputFile>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\lib\LibFinal;$(SolutionDir)..\Bin\BinFinal;</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(SolutionDir)..\Bin\BinFinal\$(ProjectName).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

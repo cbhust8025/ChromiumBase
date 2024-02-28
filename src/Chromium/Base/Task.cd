@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="base::PendingTask">
+    <Position X="1.75" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAMAAAAiAAAAAAAQAAAASAAAAAAAAAAEACAgCABAAAA=</HashCode>
+      <FileName>pending_task.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="base::internal::Task">
+    <Position X="6.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAEAgAAAAAAA=</HashCode>
+      <FileName>task\thread_pool\task.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

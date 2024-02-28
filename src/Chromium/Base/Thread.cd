@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="base::Thread">
+    <Position X="5.5" Y="0.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Members" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="base::Thread::TaskEnvironment">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="base::Thread::Options">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="base::Thread::ComStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAARCCAiSEAAEACIqAAUAgAAAgAAAAEJAMGgMAQIiI=</HashCode>
+      <FileName>threading\thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::PlatformThread">
+    <Position X="2.5" Y="0.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Members" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="base::PlatformThread::Delegate">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\platform_thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAMgAAAQgSAIAApQAABAEAAAQAAABEAAAAAAYAAABAA=</HashCode>
+      <FileName>threading\platform_thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::internal::ServiceThread">
+    <Position X="9.5" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAIAgBAACAAAAAAAAAAAEAAAKAABAAAI=</HashCode>
+      <FileName>task\thread_pool\service_thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

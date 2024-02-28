@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="base::SimpleThread">
+    <Position X="0.75" Y="2.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="base::SimpleThread::Options" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\simple_thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAACAAEACMAIAgQAAAAAAAGAAEAAgIGCQAAAAgAIAI=</HashCode>
+      <FileName>threading\simple_thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::DelegateSimpleThread">
+    <Position X="4.25" Y="1.75" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="base::DelegateSimpleThread::Delegate">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\simple_thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAABAAAAAAI=</HashCode>
+      <FileName>threading\simple_thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::DelegateSimpleThreadPool">
+    <Position X="8" Y="1.5" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="base::DelegateSimpleThreadPool::Delegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\simple_thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAADAQAAAEAAAAAAAAAgCAAAAEAACAAAAAJAI=</HashCode>
+      <FileName>threading\simple_thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="base::PlatformThread">
+    <Position X="11.5" Y="2.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Members" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="base::PlatformThread::Delegate">
+        <TypeIdentifier>
+          <NewMemberFileName>threading\platform_thread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAMgAAAQgSAIAApQAABAEAAAQAAABEAAAAAAYAAABAA=</HashCode>
+      <FileName>threading\platform_thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>
